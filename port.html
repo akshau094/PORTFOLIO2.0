@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            font-family: Arial, courier;
+            margin: 10px;
+            padding: 10px;
+            background-color: #63bad2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff3b3b;
+        }
+        nav a {
+            color: #000000;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .projects, .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project, .skill {
+            background-color: #ebe8e8;
+            border: 0px solid #fff7f7;
+            border-radius: 5px;
+            padding: 2rem;
+            margin: 0.5rem;
+            flex: 1 1 calc(33% - 1rem);
+        }
+        .title {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        #profileImage {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">AKSHAY PORTFOLIO</h1>
+    <img id="profileImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJuhVOwn-y5fQ_e0Oeax-ync_rRSzfXy1qY2-pwalAca8bhXe2LW72OCc&s=10" alt="Profile Image">
+    <p id="currentTime"></p>
+    <script src="script.js"></script>
+    <header>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+    <nav>
+        <a href="https://e-jobs.netlify.app/"><b>About</b></a>
+        <a href="https://www.bmw.com/en/index.html"><b>Projects</b></a>
+        <a href="https://in.indeed.com/career-advice/career-development/web-developer-skills"><b>Skills</b></a>
+        <a href="https://e-jobs.netlify.app/contactus"><b>Contact</b></a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Akshay Madhukar Saitwal, a passionate web developer with experience in creating dynamic and responsive websites. I love coding and solving problems with creative solutions.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project Job</h3>
+                    <p>Congratulations on launching your new job website! Imagine a sleek platform where candidates browse listings across various industries. Filters help target ideal roles, while companies post positions and find qualified talent. Built-in features streamline applications and resumes, making the hiring process efficient. This innovative website connects employers and job seekers, empowering them to find the perfect match.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Robo</h3>
+                    <p>Imagine a sleek interface with high-quality images or videos showcasing your robots in action. A clear value proposition explains how your robots can improve efficiency, safety, or human lives. Interactive elements, like 3D models or customization tools, engage visitors.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
